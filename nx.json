@@ -1,0 +1,26 @@
+{
+  "npmScope": "sebastiandg7",
+  "affected": { "defaultBase": "master" },
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": { "dependencies": "*", "devDependencies": "*" },
+    "tsconfig.base.json": "*",
+    "tslint.json": "*",
+    ".eslintrc.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": { "cacheableOperations": ["build", "lint", "test", "e2e"] }
+    }
+  },
+  "projects": {
+    "nx-plugin-test": { "tags": [] },
+    "nx-plugin-test-e2e": {
+      "tags": [],
+      "implicitDependencies": ["nx-plugin-test"]
+    }
+  },
+  "workspaceLayout": { "appsDir": "e2e", "libsDir": "packages" }
+}

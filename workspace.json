@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "projects": {
+    "nx-plugin-test": {
+      "root": "packages/nx-plugin-test",
+      "sourceRoot": "packages/nx-plugin-test/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/nx-plugin-test/**/*.ts"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/packages/nx-plugin-test"
+          ],
+          "options": {
+            "jestConfig": "packages/nx-plugin-test/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "build": {
+          "executor": "@nrwl/node:package",
+          "outputs": [
+            "{options.outputPath}"
+          ],
+          "options": {
+            "outputPath": "dist/packages/nx-plugin-test",
+            "tsConfig": "packages/nx-plugin-test/tsconfig.lib.json",
+            "packageJson": "packages/nx-plugin-test/package.json",
+            "main": "packages/nx-plugin-test/src/index.ts",
+            "assets": [
+              "packages/nx-plugin-test/*.md",
+              {
+                "input": "./packages/nx-plugin-test/src",
+                "glob": "**/*.!(ts)",
+                "output": "./src"
+              },
+              {
+                "input": "./packages/nx-plugin-test",
+                "glob": "generators.json",
+                "output": "."
+              },
+              {
+                "input": "./packages/nx-plugin-test",
+                "glob": "executors.json",
+                "output": "."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "nx-plugin-test-e2e": {
+      "projectType": "application",
+      "root": "e2e/nx-plugin-test-e2e",
+      "sourceRoot": "e2e/nx-plugin-test-e2e/src",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/nx-plugin:e2e",
+          "options": {
+            "target": "nx-plugin-test:build",
+            "npmPackageName": "@sebastiandg7/nx-plugin-test",
+            "pluginOutputPath": "dist/packages/nx-plugin-test",
+            "jestConfig": "e2e/nx-plugin-test-e2e/jest.config.js"
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/workspace"
+  }
+}

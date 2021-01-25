@@ -1,84 +1,94 @@
-# 👋 Hi there!
 
-Welcome to my profile :)
 
-I'm Sebastian. A guy who enjoys challenges, desiging solutions, writing code and diving 🤿
+# Sebastiandg7
 
-<br>
+This project was generated using [Nx](https://nx.dev).
 
-[![Years Badge](https://badges.pufler.dev/years/sebastiandg7)](https://badges.pufler.dev)
-[![Visits Badge](https://badges.pufler.dev/visits/sebastiandg7/sebastiandg7)](https:braydoncoyer.dev)
-[![Repos Badge](https://badges.pufler.dev/repos/sebastiandg7)](https://badges.pufler.dev)
-[![Gists Badge](https://badges.pufler.dev/gists/sebastiandg7)](https://badges.pufler.dev)
+<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
 
-[![Github Badge](https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white)](https://github.com/sebastiandg7)
-[![Twitter Badge](https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/sebastiandg7)
-[![LinkedIn Badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sebastianduqueg/)
-[![Dev.to Badge](https://img.shields.io/badge/DEV.TO-%2312100E.svg?&style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/sebastiandg7)
+🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
 
-<br>
+## Adding capabilities to your workspace
 
-## 📈 My stats
+Nx supports many plugins which add capabilities for developing different types of applications and different tools.
 
-<br>
+These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=sebastiandg7&count_private=true&show_icons=true&&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
-</a>
-<a href="https://github.com/anuraghazra/convoychat">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sebastiandg7&layout=compact&langs_count=8&&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
-</a>
+Below are our core plugins:
 
-<br>
-<br>
+- [React](https://reactjs.org)
+  - `npm install --save-dev @nrwl/react`
+- Web (no framework frontends)
+  - `npm install --save-dev @nrwl/web`
+- [Angular](https://angular.io)
+  - `npm install --save-dev @nrwl/angular`
+- [Nest](https://nestjs.com)
+  - `npm install --save-dev @nrwl/nest`
+- [Express](https://expressjs.com)
+  - `npm install --save-dev @nrwl/express`
+- [Node](https://nodejs.org)
+  - `npm install --save-dev @nrwl/node`
 
-## 🧰 Stuff I use
+There are also many [community plugins](https://nx.dev/nx-community) you could add.
 
-<br>
+## Generate an application
 
-<p>
-    <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
-    <img alt="Nodejs" src="https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white" />
-    <img alt="NestJs" src="https://img.shields.io/badge/-NestJs-ea2845?style=flat-square&logo=nestjs&logoColor=white" />
-    <img alt="angular" src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white" />
-    <img alt="npm" src="https://img.shields.io/badge/-NPM-CB3837?style=flat-square&logo=npm&logoColor=white" />
-    <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-    <img alt="Webpack" src="https://img.shields.io/badge/-Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=white" /> 
-    <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
-    <img alt="github actions" src="https://img.shields.io/badge/-Github_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white" />
-    <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
-    <img alt="Insomnia" src="https://img.shields.io/badge/-Insomnia-5849BE?style=flat-square&logo=insomnia&logoColor=white" />
-    <img alt="Heroku" src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku&logoColor=white" />
-    <img alt="redux" src="https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
-    <img alt="ReactiveX" src="https://img.shields.io/badge/-RxJs-B7178C?style=flat-square&logo=reactivex&logoColor=white" />
-    <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-    <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
-    <img alt="Styled Components" src="https://img.shields.io/badge/-Styled_Components-db7092?style=flat-square&logo=styled-components&logoColor=white" />
-    <img alt="Brave browser" src="https://img.shields.io/badge/-Brave_Browser-FB542B?style=flat-square&logo=brave&logoColor=white" />
-    <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
-    <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
-</p>
+Run `nx g @nrwl/react:app my-app` to generate an application.
 
-<br>
+> You can use any of the plugins above to generate applications as well.
 
-## 📌 Pinned Repositories
+When using Nx, you can create multiple applications and libraries in the same workspace.
 
-<br>
+## Generate a library
 
-<a href="https://github.com/trafilea/nx-shopify">
-    <img align="center" style="margin:1rem 0.5rem" src="https://github-readme-stats.vercel.app/api/pin/?username=trafilea&repo=nx-shopify&title_color=ffffff&text_color=c9cacc&icon_color=4AB197&bg_color=1A2B34" />
-</a>
+Run `nx g @nrwl/react:lib my-lib` to generate a library.
 
-<br>
-<br>
+> You can also use any of the plugins above to generate libraries as well.
 
-## 📝 Latest Blog Posts
+Libraries are shareable across libraries and applications. They can be imported from `@sebastiandg7/mylib`.
 
-<br>
+## Development server
 
-<!-- BLOG-POST-LIST:START -->
-- [Could you review my first react app since 3 years ago?](https://dev.to/sebastiandg7/could-you-review-my-first-react-app-since-3-years-ago-3nbh)
-- [How do you handle role/permissions updates with JWT?](https://dev.to/sebastiandg7/how-do-you-handle-role-permissions-updates-with-jwt-3778)
-<!-- BLOG-POST-LIST:END -->
+Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-<br>
+## Code scaffolding
+
+Run `nx g @nrwl/react:component my-component --project=my-app` to generate a new component.
+
+## Build
+
+Run `nx build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `nx test my-app` to execute the unit tests via [Jest](https://jestjs.io).
+
+Run `nx affected:test` to execute the unit tests affected by a change.
+
+## Running end-to-end tests
+
+Run `ng e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
+
+Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
+
+## Understand your workspace
+
+Run `nx dep-graph` to see a diagram of the dependencies of your projects.
+
+## Further help
+
+Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+
+
+## ☁ Nx Cloud
+
+### Computation Memoization in the Cloud
+
+<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
+
+Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
+
+Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
+
+Visit [Nx Cloud](https://nx.app/) to learn more.
