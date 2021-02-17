@@ -1,0 +1,38 @@
+/* eslint-disable no-undef */
+// npx semantic-release --no-ci --branch=semantic-release-plus --extends=./packages/nx-plugin-test/release.config.js --debug
+const name = 'nx-plugin-test';
+const srcRoot = `packages/${name}`;
+
+module.exports = {
+  pkgRoot: `dist/${srcRoot}`, // should come from angular.cli
+  tagFormat: name + '-v${version}',
+  commitPaths: [
+    'workspace.json',
+    'nx.json',
+    '.nxignore',
+    'package.json',
+    '.prettierrc',
+    '.prettierignore',
+    `${srcRoot}/*`,
+  ], // should come from dep-graph and angular.json
+  // assets: [`${srcRoot}/README.md`, `${srcRoot}/CHANGELOG.md`],
+  // plugins: [
+  //   '@semantic-release/commit-analyzer',
+  //   '@semantic-release/release-notes-generator',
+  //   [
+  //     '@semantic-release/changelog',
+  //     {
+  //       changelogFile: `${srcRoot}/CHANGELOG.md`,
+  //     },
+  //   ],
+  //   '@semantic-release/npm',
+  //   [
+  //     '@semantic-release/git',
+  //     {
+  //       message:
+  //         `chore(release): ${name}` +
+  //         '-v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+  //     },
+  //   ],
+  // ],
+};
