@@ -4,6 +4,14 @@ const name = 'nx-plugin-test';
 const srcRoot = `packages/${name}`;
 
 module.exports = {
+  branches: [
+    '+([0-9])?(.{+([0-9]),x}).x',
+    'master',
+    'next',
+    'next-major',
+    { name: 'beta', prerelease: true },
+    { name: 'alpha', prerelease: true },
+  ],
   pkgRoot: `dist/${srcRoot}`, // should come from angular.cli
   tagFormat: name + '-v${version}',
   commitPaths: [
@@ -15,24 +23,24 @@ module.exports = {
     '.prettierignore',
     `${srcRoot}/*`,
   ], // should come from dep-graph and angular.json
-  // assets: [`${srcRoot}/README.md`, `${srcRoot}/CHANGELOG.md`],
-  // plugins: [
-  //   '@semantic-release/commit-analyzer',
-  //   '@semantic-release/release-notes-generator',
-  //   [
-  //     '@semantic-release/changelog',
-  //     {
-  //       changelogFile: `${srcRoot}/CHANGELOG.md`,
-  //     },
-  //   ],
-  //   '@semantic-release/npm',
-  //   [
-  //     '@semantic-release/git',
-  //     {
-  //       message:
-  //         `chore(release): ${name}` +
-  //         '-v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
-  //     },
-  //   ],
-  // ],
+  assets: [`${srcRoot}/README.md`, `${srcRoot}/CHANGELOG.md`],
+  plugins: [
+    '@semantic-release/commit-analyzer',
+    '@semantic-release/release-notes-generator',
+    [
+      '@semantic-release/changelog',
+      {
+        changelogFile: `${srcRoot}/CHANGELOG.md`,
+      },
+    ],
+    '@semantic-release/npm',
+    [
+      '@semantic-release/git',
+      {
+        message:
+          `chore(release): ${name}` +
+          '-v${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+      },
+    ],
+  ],
 };
