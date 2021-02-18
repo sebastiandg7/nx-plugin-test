@@ -1,3 +1,10 @@
+# [1.0.0-alpha.5](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.4...nx-plugin-test-v1.0.0-alpha.5) (2021-02-18)
+
+
+### Features
+
+* **build:** extra logs! ([2f9f0a3](https://github.com/sebastiandg7/nx-plugin-test/commit/2f9f0a3fca2e9604ca317cb661fd0d699abb14cb))
+
 # [1.0.0-alpha.4](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.3...nx-plugin-test-v1.0.0-alpha.4) (2021-02-17)
 
 
