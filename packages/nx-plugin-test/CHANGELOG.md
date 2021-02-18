@@ -1,3 +1,10 @@
+# [1.0.0-alpha.6](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.5...nx-plugin-test-v1.0.0-alpha.6) (2021-02-18)
+
+
+### Features
+
+* **plugin:** print in magenta ([9efcba9](https://github.com/sebastiandg7/nx-plugin-test/commit/9efcba9f79869c84d6ef4100ab34d664ee13cbd8))
+
 # [1.0.0-alpha.5](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.4...nx-plugin-test-v1.0.0-alpha.5) (2021-02-18)
 
 
