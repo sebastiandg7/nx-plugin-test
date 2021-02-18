@@ -1,3 +1,10 @@
+# [1.0.0-alpha.7](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.6...nx-plugin-test-v1.0.0-alpha.7) (2021-02-18)
+
+
+### Features
+
+* **plugin:** print in green ([469739b](https://github.com/sebastiandg7/nx-plugin-test/commit/469739b420e2740358493a4c3842cebb0607591e))
+
 # [1.0.0-alpha.6](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.5...nx-plugin-test-v1.0.0-alpha.6) (2021-02-18)
 
 
