@@ -55,7 +55,7 @@
           }
         },
         "release": {
-          "builder": "@nrwl/workspace:run-commands",
+          "executor": "@nrwl/workspace:run-commands",
           "options": {
             "commands": [
               {
@@ -78,6 +78,77 @@
             "npmPackageName": "@sebastiandg7/nx-plugin-test",
             "pluginOutputPath": "dist/packages/nx-plugin-test",
             "jestConfig": "e2e/nx-plugin-test-e2e/jest.config.js"
+          }
+        }
+      }
+    },
+    "nx-other-plugin": {
+      "root": "packages/nx-other-plugin",
+      "sourceRoot": "packages/nx-other-plugin/src",
+      "projectType": "library",
+      "targets": {
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": [
+              "packages/nx-other-plugin/**/*.ts"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/packages/nx-other-plugin"
+          ],
+          "options": {
+            "jestConfig": "packages/nx-other-plugin/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "build": {
+          "executor": "@nrwl/node:package",
+          "outputs": [
+            "{options.outputPath}"
+          ],
+          "options": {
+            "outputPath": "dist/packages/nx-other-plugin",
+            "tsConfig": "packages/nx-other-plugin/tsconfig.lib.json",
+            "packageJson": "packages/nx-other-plugin/package.json",
+            "main": "packages/nx-other-plugin/src/index.ts",
+            "assets": [
+              "packages/nx-other-plugin/*.md",
+              {
+                "input": "./packages/nx-other-plugin/src",
+                "glob": "**/*.!(ts)",
+                "output": "./src"
+              },
+              {
+                "input": "./packages/nx-other-plugin",
+                "glob": "generators.json",
+                "output": "."
+              },
+              {
+                "input": "./packages/nx-other-plugin",
+                "glob": "executors.json",
+                "output": "."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "nx-other-plugin-e2e": {
+      "projectType": "application",
+      "root": "e2e/nx-other-plugin-e2e",
+      "sourceRoot": "e2e/nx-other-plugin-e2e/src",
+      "targets": {
+        "e2e": {
+          "executor": "@nrwl/nx-plugin:e2e",
+          "options": {
+            "target": "nx-other-plugin:build",
+            "npmPackageName": "@sebastiandg7/nx-other-plugin",
+            "pluginOutputPath": "dist/packages/nx-other-plugin",
+            "jestConfig": "e2e/nx-other-plugin-e2e/jest.config.js"
           }
         }
       }

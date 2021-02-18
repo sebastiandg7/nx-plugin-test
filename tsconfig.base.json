@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "sebastiandg7/nx-plugin-test": ["packages/nx-plugin-test/src/index.ts"]
+      "sebastiandg7/nx-plugin-test": ["packages/nx-plugin-test/src/index.ts"],
+      "@sebastiandg7/nx-other-plugin": ["packages/nx-other-plugin/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

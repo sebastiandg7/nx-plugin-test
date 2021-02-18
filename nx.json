@@ -20,6 +20,11 @@
     "nx-plugin-test-e2e": {
       "tags": ["type:e2e"],
       "implicitDependencies": ["nx-plugin-test"]
+    },
+    "nx-other-plugin": { "tags": [] },
+    "nx-other-plugin-e2e": {
+      "tags": [],
+      "implicitDependencies": ["nx-other-plugin"]
     }
   },
   "workspaceLayout": { "appsDir": "e2e", "libsDir": "packages" }
