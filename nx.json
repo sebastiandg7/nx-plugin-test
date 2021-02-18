@@ -18,7 +18,7 @@
   "projects": {
     "nx-plugin-test": { "tags": [] },
     "nx-plugin-test-e2e": {
-      "tags": [],
+      "tags": ["type:e2e"],
       "implicitDependencies": ["nx-plugin-test"]
     }
   },
