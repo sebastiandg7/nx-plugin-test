@@ -4,7 +4,7 @@ import * as chalk from 'chalk';
 export default async function runExecutor(options: BuildExecutorSchema) {
   console.log(
     `${chalk.inverse(
-      chalk.magenta(
+      chalk.greenBright(
         'Executor ran for Build! A little change, another one, options'
       )
     )}`
