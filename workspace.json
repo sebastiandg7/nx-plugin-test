@@ -134,6 +134,16 @@
               }
             ]
           }
+        },
+        "release": {
+          "executor": "@nrwl/workspace:run-commands",
+          "options": {
+            "commands": [
+              {
+                "command": "npx semantic-release --extends=./packages/nx-other-plugin/release.config.js"
+              }
+            ]
+          }
         }
       }
     },
