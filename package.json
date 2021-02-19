@@ -1,6 +1,6 @@
 {
-  "name": "sebastiandg7",
-  "version": "0.0.0",
+  "name": "@sebastiandg7/nx-plugins",
+  "version": "0.0.0-development",
   "license": "MIT",
   "scripts": {
     "nx": "nx",
