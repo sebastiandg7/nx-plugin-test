@@ -7,7 +7,9 @@ export default async function runExecutor(options: BuildExecutorSchema) {
       chalk.greenBright(
         'Executor ran for Build! A little change, another one, options'
       )
-    )}`
+    )}
+      ${chalk.gray(`This should be gray`)}
+      `
   );
   return {
     success: true,
