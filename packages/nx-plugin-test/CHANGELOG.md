@@ -1,3 +1,10 @@
+# [1.0.0-alpha.9](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.8...nx-plugin-test-v1.0.0-alpha.9) (2021-02-19)
+
+
+### Features
+
+* **plugin:** add red print ([3320a72](https://github.com/sebastiandg7/nx-plugin-test/commit/3320a72803dbdd96c8b75127396c6001c52550f4))
+
 # [1.0.0-alpha.8](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.7...nx-plugin-test-v1.0.0-alpha.8) (2021-02-19)
 
 
