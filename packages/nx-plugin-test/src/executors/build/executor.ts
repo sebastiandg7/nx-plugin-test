@@ -8,7 +8,8 @@ export default async function runExecutor(options: BuildExecutorSchema) {
         'Executor ran for Build! A little change, another one, options'
       )
     )}
-      ${chalk.gray(`This should be gray`)}
+    ${chalk.gray(`This should be gray`)}\n\n
+    ${chalk.red(`This should be red`)}
       `
   );
   return {
