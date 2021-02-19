@@ -1,3 +1,10 @@
+# [1.0.0-alpha.2](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-other-plugin-v1.0.0-alpha.1...nx-other-plugin-v1.0.0-alpha.2) (2021-02-19)
+
+
+### Features
+
+* **other:** lil change ([ec20e15](https://github.com/sebastiandg7/nx-plugin-test/commit/ec20e15abc4dd380672b7a8f54afffcc47106743))
+
 # 1.0.0-alpha.1 (2021-02-19)
 
 
