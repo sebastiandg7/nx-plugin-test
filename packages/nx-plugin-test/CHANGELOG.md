@@ -1,3 +1,11 @@
+# [1.0.0-alpha.8](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.7...nx-plugin-test-v1.0.0-alpha.8) (2021-02-19)
+
+
+### Features
+
+* **other:** add release for other plugin ([4e8fc84](https://github.com/sebastiandg7/nx-plugin-test/commit/4e8fc842aaece3f6f9deb42a3248cc1d64029676))
+* **plugin:** add gray text ([1f2cfb6](https://github.com/sebastiandg7/nx-plugin-test/commit/1f2cfb6cb98c21ff3602a92f770815dac371fe39))
+
 # [1.0.0-alpha.7](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.6...nx-plugin-test-v1.0.0-alpha.7) (2021-02-18)
 
 
