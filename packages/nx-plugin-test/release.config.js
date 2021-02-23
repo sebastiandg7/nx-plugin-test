@@ -9,11 +9,12 @@ module.exports = {
     'master',
     'next',
     'next-major',
+    { name: 'rc', prerelease: true },
     { name: 'beta', prerelease: true },
     { name: 'alpha', prerelease: true },
   ],
   pkgRoot: `dist/${srcRoot}`, // should come from angular.cli
-  tagFormat: name + '-v${version}',
+  tagFormat: 'v${version}',
   commitPaths: [
     'workspace.json',
     'nx.json',
