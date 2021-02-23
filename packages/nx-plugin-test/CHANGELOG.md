@@ -1,3 +1,25 @@
+# 1.0.0-alpha.1 (2021-02-23)
+
+
+### Bug Fixes
+
+* **build:** add some changes ([7b94b8a](https://github.com/sebastiandg7/nx-plugin-test/commit/7b94b8a663b314a319d389897bb894c202d3b4bb))
+* **plugin:** make plugin package public ([3c8c1ca](https://github.com/sebastiandg7/nx-plugin-test/commit/3c8c1ca49199bfc7499e9568fd271eadb1eca125))
+* **plugin:** make the plugin truly public ([a28ae8c](https://github.com/sebastiandg7/nx-plugin-test/commit/a28ae8cb9ac56a096339345adb8b7d17583b41b6))
+
+
+### Features
+
+* **build:** extra logs! ([2f9f0a3](https://github.com/sebastiandg7/nx-plugin-test/commit/2f9f0a3fca2e9604ca317cb661fd0d699abb14cb))
+* **build:** significant change ([a32809d](https://github.com/sebastiandg7/nx-plugin-test/commit/a32809d0e8f618b2ab6945baa74e79f607787110))
+* **other:** add release for other plugin ([4e8fc84](https://github.com/sebastiandg7/nx-plugin-test/commit/4e8fc842aaece3f6f9deb42a3248cc1d64029676))
+* **other:** lil change ([ec20e15](https://github.com/sebastiandg7/nx-plugin-test/commit/ec20e15abc4dd380672b7a8f54afffcc47106743))
+* **other:** make package scope public ([24f6c6e](https://github.com/sebastiandg7/nx-plugin-test/commit/24f6c6ebdfe064e8ff20e0214638c5e41964c8d0))
+* **plugin:** add gray text ([1f2cfb6](https://github.com/sebastiandg7/nx-plugin-test/commit/1f2cfb6cb98c21ff3602a92f770815dac371fe39))
+* **plugin:** add red print ([3320a72](https://github.com/sebastiandg7/nx-plugin-test/commit/3320a72803dbdd96c8b75127396c6001c52550f4))
+* **plugin:** print in green ([469739b](https://github.com/sebastiandg7/nx-plugin-test/commit/469739b420e2740358493a4c3842cebb0607591e))
+* **plugin:** print in magenta ([9efcba9](https://github.com/sebastiandg7/nx-plugin-test/commit/9efcba9f79869c84d6ef4100ab34d664ee13cbd8))
+
 # [1.0.0-alpha.9](https://github.com/sebastiandg7/nx-plugin-test/compare/nx-plugin-test-v1.0.0-alpha.8...nx-plugin-test-v1.0.0-alpha.9) (2021-02-19)
 
 
